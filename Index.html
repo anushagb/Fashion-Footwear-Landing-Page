@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fashionable Footwear" />
+    <meta name="author" content="Anusha GB" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main/main.css" />
+    <title>Fashion Footwear Landing Page</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header class="header flex items-center justify-between p-5 xl:px-0">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              src="./slippers logo.png"
+              alt="Footwear"
+              width="102"
+              height="49"
+              viewBox="0 0 102 49"
+              fill="none"
+            />
+          </a>
+        </div>
+
+        <nav>
+          <ul class="flex">
+            <li class="mx-2">
+              <a href="#">Can't Stop Moving With Style!!!</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="cta hidden md:block">
+          <button class="btn-cta">Cart</button>
+        </div>
+      </header>
+
+      <!-- Showcase -->
+      <section
+        class="showcase flex flex-col-reverse md:grid grid-cols-2 bg-black md:items-center"
+      >
+        <div
+          class="text text-white py-10 px-5 text-center md:text-left xl:px-20"
+        >
+          <h3 class="orange mb-10">Fashion Arrivals</h3>
+          <h1 class="font-bold text-4xl mb-5">Fashion Footwear</h1>
+          <p class="mb-5">Wanna Style? Choose Fashion Footwear...</p>
+          <button class="btn-showcase">Buy It Now</button>
+        </div>
+
+        <div class="showcase-picture">
+          <img src="./Slippers.png" alt="mic 1" class="w-full md:h-full" />
+        </div>
+      </section>
+      <!-- Featured -->
+      <section class="featured px-5 py-5 xl:px-0">
+        <h3 class="font-bold text-3xl mb-5">New Arrivals</h3>
+        <article class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <div class="featured__cards">
+            <img src="./Classy Sneakers.jpg" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Classy Sneaker</h4>
+            <p class="mb-5">Walk With Fashion</p>
+            <button class="btn-showcase">Buy Now at just $1999</button>
+          </div>
+
+          <div class="featured__cards">
+            <img src="./Trendy Heels.jpg" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Trendy Heals</h4>
+            <p class="mb-5">Style And Walk High With Confidence</p>
+            <button class="btn-showcase">Buy Now at just $1500</button>
+          </div>
+
+          <div class="featured__cards">
+            <img src="./Fashion Flats.jpg" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Fashion Flat</h4>
+            <p class="mb-5">Lets Walk With Comfortable</p>
+            <button class="btn-showcase">Buy Now at just $999</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Get yours today -->
+      <section class="py-10 md:grid grid-cols-2 items-center md:px-5 xl:px-0">
+        <div>
+          <img src="./Fit And Fast Sneaker.jpg" alt="" />
+        </div>
+
+        <div class="px-5">
+          <h3 class="font-bold text-3xl mt-5 mb-1">Fit And Fast Sneaker</h3>
+          <p class="mb-5">Wanna Win Get it Today! Mega Offer</p>
+          <button class="btn-showcase">Buy Now at just $2999</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div
+        class="footer-inner flex flex-col items-center justify-center p-5 text-center md:flex-row md:justify-between md:p-10 xl:px-0"
+      >
+        <div class="logo mb-5 md:mb-0">
+          <img
+            src="./slippers logo.png"
+            alt="Footwear"
+            width="102"
+            height="49"
+            viewBox="0 0 102 49"
+            fill="none"
+          />
+        </div>
+
+        <nav class="mb-5 md:mb-0">
+          <ul class="md:flex">
+            <li class="my-1 md:my-0 md:mx-2">
+              <a href="#">!!! Visit Again !!!</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <button class="btn-cta">Contact Us</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
